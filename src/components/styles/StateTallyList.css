@@ -1,0 +1,29 @@
+.stateTally {
+  width: 100%;
+  padding: 0 40px;
+  margin: 50px 0;
+}
+
+.tallyContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  gap: 20px;
+}
+
+.stateResult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #393c4a;
+  border-radius: 13px;
+  padding: 10px 20px;
+}
+
+.partyVote {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}

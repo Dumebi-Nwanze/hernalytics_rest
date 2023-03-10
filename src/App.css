@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  background: #1f2335;
+}
+
+.app__body {
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
